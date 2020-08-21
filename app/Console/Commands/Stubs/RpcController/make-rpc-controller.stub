@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Helpers\Response;
+
+class DummyController
+{
+    protected $body;
+
+    public function __construct(){
+    	//
+    }
+}

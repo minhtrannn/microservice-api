@@ -1,0 +1,61 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Helpers\Response;
+use Illuminate\Support\Arr;
+use Validator;
+use Webpatser\Uuid\Uuid;
+
+class DummyController
+{
+    public function __construct(){
+    	//
+    }
+
+    /**
+     * Display a listing of the resource.
+     * @param  AMQP request $request
+     * @return App\Helpers\Response
+     */
+    public function list($request){
+        //
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     * @param  AMQP request $request
+     * @return App\Helpers\Response
+     */
+    public function store($request){
+        //
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     * @param  AMQP request $request
+     * @return App\Helpers\Response
+     */
+    public function show($id){
+        //
+    }
+
+    /**
+     * Update the specified resource in storage.
+     * @param  $id
+     * @param  AMQP request $request
+     * @return App\Helpers\Response
+     */
+    public function update($id, $request){
+        //
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     * @param  $id
+     * @return App\Helpers\Response
+     */
+    public function destroy($id){
+        //
+    }
+}

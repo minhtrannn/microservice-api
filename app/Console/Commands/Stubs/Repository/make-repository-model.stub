@@ -1,0 +1,17 @@
+<?php 
+
+namespace App\Repositories;
+
+use App\Models\DummyModel;
+
+/**
+ * Class DummyRepository.
+ */
+class DummyRepository extends BaseRepository
+{
+	/**
+     * Associated Repository Model.
+     */
+    const MODEL = DummyModel::class;
+
+}
